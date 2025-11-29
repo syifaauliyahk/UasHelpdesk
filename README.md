@@ -12,16 +12,17 @@ Project ini adalah aplikasi Backend (RESTful API) untuk sistem pelaporan masalah
 ## 🚀 Teknologi yang Digunakan
 * **Java 21**
 * **Spring Boot 3** (Spring Web, Spring Data JPA)
-* **H2 Database** (In-Memory Database)
+* **PostgreSQL** (Production Database - Persistent/Permanen)
 * **Maven** (Build Tool)
 * **Railway** (Cloud Deployment)
 
 ---
 
 ## 🌐 Live Demo (Cloud)
-Aplikasi ini sudah online dan siap diuji:
-* **Base URL:** `uashelpdesk-production.up.railway.app`
-* **Cek Data:** `uashelpdesk-production.up.railway.app/api/helpdesk/list`
+Aplikasi ini sudah online dan siap diuji. Data tersimpan permanen di Cloud Database.
+
+* **Base URL:** `https://uashelpdesk-production.up.railway.app`
+* **Cek Data (JSON):** [Klik Disini](https://uashelpdesk-production.up.railway.app/api/helpdesk/list)
 
 ---
 
@@ -46,7 +47,7 @@ Gunakan **Postman** untuk menguji alur bisnis (BPM) berikut:
 Manager menunjuk teknisi untuk menangani tiket tersebut.
 * **Method:** `PUT`
 * **URL:** `/api/helpdesk/assign/{id}?teknisi=PakBudi`
-    * Ganti `{id}` dengan ID tiket (contoh: `1`).
+    * *Catatan: Ganti `{id}` dengan ID tiket (contoh: `1`).*
 * **Output:** Status berubah jadi `IN_PROGRESS`, nama teknisi terisi.
 
 ### 3. Menyelesaikan Tiket (Teknisi)
@@ -63,7 +64,8 @@ Teknisi mengonfirmasi perbaikan selesai.
 
 ## ⚙️ Cara Menjalankan (Lokal)
 1.  Clone repository ini.
-2.  Buka di Spring Tool Suite (STS).
-3.  Run `UasHelpdeskApplication.java`.
-4.  Akses API via Postman di `http://localhost:8080`.
+2.  Buka project di Spring Tool Suite (STS).
+3.  Tunggu Maven mendownload dependencies.
+4.  Run `UasHelpdeskApplication.java`.
+5.  Akses API via Postman di `http://localhost:8080`.
 
