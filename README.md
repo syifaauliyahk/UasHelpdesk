@@ -3,7 +3,7 @@
 Project ini adalah aplikasi Backend (RESTful API) untuk sistem pelaporan masalah IT. Sistem ini menerapkan **BPM Lifecycle** yang lengkap, dimana setiap tiket harus melalui tahapan proses dari pelaporan (`OPEN`), penugasan teknisi (`IN_PROGRESS`), hingga penyelesaian (`CLOSED`).
 
 **Tugas Akhir / UAS**
-* **Mata Kuliah:** Rekayasa Perangkat Lunak Lanjut
+* **Mata Kuliah:** Advanced Software Engineering
 * **Nama:** Syifa Auliyah Kusumawardani
 * **NIM:** 11230910000114
 
