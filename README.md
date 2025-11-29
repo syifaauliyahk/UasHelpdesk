@@ -12,7 +12,7 @@ Project ini adalah aplikasi Backend (RESTful API) untuk sistem pelaporan masalah
 ## 🚀 Teknologi yang Digunakan
 * **Java 21**
 * **Spring Boot 3** (Spring Web, Spring Data JPA)
-* **PostgreSQL** (Production Database - Persistent/Permanen)
+* **PostgreSQL** (Production Database)
 * **Maven** (Build Tool)
 * **Railway** (Cloud Deployment)
 
