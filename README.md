@@ -1,6 +1,6 @@
 # UAS Project - IT Helpdesk Ticketing System 🛠️
 
-Project ini adalah aplikasi Backend (RESTful API) untuk sistem pelaporan masalah IT. Sistem ini menerapkan **BPM Lifecycle** yang lengkap, dimana setiap tiket harus melalui tahapan proses dari pelaporan (`OPEN`), penugasan teknisi (`IN_PROGRESS`), hingga penyelesaian (`CLOSED`).
+Project ini adalah aplikasi Backend (RESTful API) untuk sistem pelaporan masalah IT. Sistem ini menerapkan **BPM Lifecycle**, dimana setiap tiket harus melalui tahapan proses dari pelaporan (`OPEN`), penugasan teknisi (`IN_PROGRESS`), hingga penyelesaian (`CLOSED`).
 
 **Tugas Akhir / UAS**
 * **Mata Kuliah:** Advanced Software Engineering
